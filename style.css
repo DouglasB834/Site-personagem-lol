@@ -1,0 +1,264 @@
+ 
+*{
+    margin: 0;
+    padding: 0%;
+    font-family: 'PT Serif', serif; 
+    text-decoration: none;
+    list-style: none;
+} /*nao sei muito bem se é correto fazer assim, ainda.*/
+
+h2,h3{
+    text-align: center;
+    color: #85683D;
+    padding: 5px 0;
+}
+
+p{
+    text-align: center;
+    color: #C4B998;
+    font-size: 18px;
+    margin: 12px 0;
+}
+
+    /*cores que usei color:#C4B998 #85683D #111318;*/
+body{
+    background-color: #111318;;
+}
+
+.container{
+    background-color:#111318;
+    width: 100%;
+    height: auto;
+    margin: auto;
+
+}
+
+/* ESTILO CABEÇALHO */
+.cabecalho{
+    background: linear-gradient(130deg , #171817,#85683dbe,#9c59b69d);
+    width: 100%;
+    height: 130px;
+
+}
+
+.cabecalho_container{
+    width: 80%;
+    margin: 0 auto;
+}
+
+.cabecalho_logo{    
+    width: 15%;
+    height: 120px;
+    float: left;
+    margin-top: 10px;
+
+}
+
+.cabecalho_logo a{
+    background:url(img/void_Logo_icon90px.png) no-repeat;
+    width: 95px;
+    height: 96px;
+    display: block;
+    float: left;
+    text-indent: -9999px;
+
+}
+
+.cabecalho_logo img{
+    width: 90px;
+}
+
+.cabecalho_menu{
+    width: 60%;
+    float: right;
+    height: auto;
+    margin-top: 40px;    
+}
+
+.cabecalho_menu ul{
+    float: right;
+}
+
+.cabecalho_menu ul li{
+    display: inline-block;
+    
+}
+
+.cabecalho_menu ul li a{
+    color: whitesmoke;
+    font-size: 20px;
+    margin-left: 40px;
+    display: block;
+    float: left;
+    transition: color 0.5s;
+}
+
+.cabecalho_menu ul li a:hover{
+    color:#9b59b6;
+}
+
+
+/*ESTILO PPRIMEIRA SEÇÃO / BIOGRAFIA*/
+.biografia_container{
+    background-color:#111318;
+    width: 100%;
+    float: left;
+}
+
+.biografia_fotokaisa{
+    width: 100%;
+    height: auto;
+    float: left;
+}
+
+.biografia_fotokaisa img{
+    float: left;
+    width: 80%;
+    margin-left: 9.5%;
+    
+}
+ .dividir{
+     width:100%;
+     height: auto;
+ }
+
+.dividir img{
+    width: 100%;
+    margin: 15px 0;
+
+}
+
+.biografia_kaisa{
+    margin: 0 15px;
+}
+
+.biografia_kaisa h1{
+    margin: 10px 0;
+    font-size: 26px;
+    text-align: center;
+    color: #85683D;
+}
+
+.botao{
+    float: left;
+    width: 100%;
+    text-align: center;
+    margin: 20px 0; 
+    padding: 25px 0;
+}
+.botao a{ 
+    background-color: gray;
+    font-size: 18px;
+    color: whitesmoke;
+    padding: 10px 15px;
+    border-radius: 15px;
+    transition: background-color 1s;
+
+}
+.botao a:hover{
+    background-color:#343534;
+}
+
+/*ESTILO SGUNDA SEÇÃO/ Inicio kai´sa e Ezreal */
+.kaisa_ezreal{
+    background-color:#111318;
+    width: 47.5%;
+    height: auto;
+    float: left;
+    padding: 1%;
+  
+}
+
+.kaisa_ezreal img{
+    width: 100%;
+    padding-top: 10px ;
+    
+}
+.videokaisa{
+    margin-top: 20px;
+    width: 100%;
+    
+}
+
+/* Estilo Kaisa_habilidades*/
+.Kaisa_habilidades{
+    background-color:#111318;
+    width: 47.5%;
+    height: auto;    
+    float: left;
+    padding: 1%;
+    border-left: 1px solid #85683D ;
+}
+
+.adc_container{
+    top: -10%;
+}
+
+.adc{
+    float: left;
+    width: 5%;
+    background-color: #343534;
+    border: 2px solid #85683D ;
+    margin-right:8px;  
+}
+
+.adc img {
+    width: 100%;  
+ 
+}
+
+.Kaisa_habilidades h5{
+    color: #a88042;
+}
+
+.Kaisa_habilidades span{
+    color: #a88042;
+}
+
+
+
+
+.Kaisa_habilidades h5{
+    float: right;
+}
+
+
+.Kaisa_habilidades img{
+    width: 100%;    
+    display: block;
+    
+}
+
+
+/* ESTILO  TERCEIRA SEÇÃO VAZIO */
+
+.vazio{
+    width: 100%;
+    height: auto;
+    float: left;  
+}
+
+.img_vazio{
+    background: url(img/img-novo-campeao-vazio-lol.png);
+    background-size: cover;
+    display: flex;
+    width: 100%;
+    height: 340px;
+    justify-content: center;
+}
+
+.vazio img{ 
+    width: 100%; 
+}
+
+
+/*ESTILO FOOTER*/
+.footer{
+    background-color: #343534;
+    height: 40px;
+    width: 100%;
+    float: left;
+    margin-top: 10px;
+    
+   
+}
