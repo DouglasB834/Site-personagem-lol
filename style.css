@@ -1,11 +1,12 @@
- /*estilo geral */
-*{
+ 
+/** ESTILO GERAL /
+*{ 
     margin: 0;
     padding: 0%;
     font-family: 'PT Serif', serif; 
     text-decoration: none;
     list-style: none;
-} /*nao sei muito bem se é correto fazer assim, ainda.*/
+}
 
 h2,h3{
     text-align: center;
@@ -20,7 +21,8 @@ p{
     margin: 12px 0;
 }
 
-    /*cores que usei color:#C4B998 #85683D #111318;*/
+
+    /* cores q usei color:#C4B998 #85683D #111318;*/
 
 body{
     background-color: #111318;;
@@ -35,21 +37,20 @@ body{
 }
 
 /* ESTILO CABEÇALHO */
-
 .cabecalho{
     background: linear-gradient(130deg , #171817,#85683dbe,#9c59b69d);
     width: 100%;
-    height: 130px;
-    position:fixed;
-
+    height: 110px;
+    position: fixed;
 }
 
 .cabecalho_container{
     width: 80%;
     margin: 0 auto;
+    
 }
 
-.cabecalho_logo{  
+.cabecalho_logo{    
     width: 15%;
     height: 120px;
     float: left;
@@ -71,11 +72,12 @@ body{
     width: 90px;
 }
 
-.cabecalho_menu{
+.cabecalho_menu{ 
     width: 60%;
     float: right;
     height: auto;
-    margin-top: 40px;    
+    margin-top: 40px;  
+    
 }
 
 .cabecalho_menu ul{
@@ -102,9 +104,8 @@ body{
 
 
 /*ESTILO PPRIMEIRA SEÇÃO / BIOGRAFIA*/
-
 .biografia_container{
-    margin-top:110px;
+    margin-top: 110px;
     background-color:#111318;
     width: 100%;
     float: left;
@@ -118,8 +119,10 @@ body{
 
 .biografia_fotokaisa img{
     float: left;
+    max-width: 1300px ;
     width: 80%;
-    margin-left: 9.5%;
+    max-height: 710px;
+    margin-left: 12%;
     
 }
  .dividir{
@@ -132,7 +135,6 @@ body{
     margin: 15px 0;
 
 }
-
 .biografia_kaisa{
     margin: 0 15px;
 }
@@ -160,18 +162,20 @@ body{
     transition: background-color 1s;
 
 }
+
 .botao a:hover{
     background-color:#343534;
 }
 
+
 /*ESTILO SGUNDA SEÇÃO/ Inicio kai´sa e Ezreal */
+
 .kaisa_ezreal{
     background-color:#111318;
     width: 47.5%;
     height: auto;
     float: left;
-    padding: 1%;
-  
+    padding: 1%;  
 }
 
 .kaisa_ezreal img{
@@ -186,6 +190,7 @@ body{
 }
 
 /* Estilo Kaisa_habilidades*/
+
 .Kaisa_habilidades{
     background-color:#111318;
     width: 47.5%;
@@ -204,12 +209,14 @@ body{
     width: 5%;
     background-color: #343534;
     border: 2px solid #85683D ;
-    margin-right:8px;  
+    margin-right:8px;
+    
 }
 
 .adc img {
     width: 100%;  
- 
+    
+    
 }
 
 .Kaisa_habilidades h5{
@@ -220,20 +227,14 @@ body{
     color: #a88042;
 }
 
-
-
-
 .Kaisa_habilidades h5{
     float: right;
 }
 
-
 .Kaisa_habilidades img{
     width: 100%;    
-    display: block;
-    
+    display: block;   
 }
-
 
 /* ESTILO  TERCEIRA SEÇÃO VAZIO */
 
@@ -241,6 +242,7 @@ body{
     width: 100%;
     height: auto;
     float: left;  
+    
 }
 
 .img_vazio{
@@ -263,7 +265,8 @@ body{
     height: 40px;
     width: 100%;
     float: left;
-    margin-top: 10px;
-    
-   
+    margin-top: 10px;   
 }
+
+
+
