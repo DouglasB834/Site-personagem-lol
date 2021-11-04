@@ -1,4 +1,4 @@
- 
+ /*estilo geral */
 *{
     margin: 0;
     padding: 0%;
@@ -21,6 +21,7 @@ p{
 }
 
     /*cores que usei color:#C4B998 #85683D #111318;*/
+
 body{
     background-color: #111318;;
 }
@@ -34,6 +35,7 @@ body{
 }
 
 /* ESTILO CABEÇALHO */
+
 .cabecalho{
     background: linear-gradient(130deg , #171817,#85683dbe,#9c59b69d);
     width: 100%;
@@ -100,7 +102,9 @@ body{
 
 
 /*ESTILO PPRIMEIRA SEÇÃO / BIOGRAFIA*/
+
 .biografia_container{
+    margin-top:110px;
     background-color:#111318;
     width: 100%;
     float: left;
