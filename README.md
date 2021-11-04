@@ -4,4 +4,4 @@
 
 Aqui estava praticando float: left.
 
-https://douglasb834.github.io/Site-sobre-personagem-LOL-Kai-sa/
+<a>target="_blank" href = "https://douglasb834.github.io/Site-sobre-personagem-LOL-Kai-sa/"</a> 
