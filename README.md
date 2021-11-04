@@ -2,4 +2,7 @@
 
 😁 - futuramente vou tentar colocar outro personagem .
 
-Aqui estava praticando float: left
+Usei somente HTML E CSS. 
+
+Aqui estava praticando float: left.
+
