@@ -38,6 +38,7 @@ body{
     background: linear-gradient(130deg , #171817,#85683dbe,#9c59b69d);
     width: 100%;
     height: 130px;
+    position:fixed;
 
 }
 
@@ -51,7 +52,6 @@ body{
     height: 120px;
     float: left;
     margin-top: 10px;
-    position:fixed;
 
 }
 
