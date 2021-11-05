@@ -20,8 +20,7 @@ p{
     margin: 12px 0;
 }
 
-
-    /*  cores que usei color:#C4B998 #85683D #111318;*/
+    /*color:#C4B998 #85683D #111318;*/
 body{
     background-color: #111318;;
 }
@@ -35,18 +34,18 @@ body{
 }
 
 /* ESTILO CABEÇALHO */
+
 .cabecalho{
     background: linear-gradient(130deg , #171817,#85683dbe,#9c59b69d);
     width: 100%;
     height: 110px;
     position: fixed;
     
-}
 
+}
 .cabecalho_container{
     width: 80%;
     margin: 0 auto;
-    
 }
 
 .cabecalho_logo{    
@@ -66,12 +65,7 @@ body{
 
 }
 
-.cabecalho_logo img{
-    width: 90px;
-}
-
 .cabecalho_menu{
-    
     width: 60%;
     float: right;
     height: auto;
@@ -92,10 +86,10 @@ body{
     color: whitesmoke;
     font-size: 20px;
     margin-left: 40px;
-    display: block;
     float: left;
     transition: color 0.5s;
 }
+
 .cabecalho_menu ul li a:hover{
     color:#9b59b6;
 }
@@ -104,6 +98,7 @@ body{
 
 .biografia_container{
     margin-top: 110px;
+    height: auto;
     background-color:#111318;
     width: 100%;
     float: left;
@@ -114,6 +109,7 @@ body{
     height: auto;
     float: left;
 }
+
 .biografia_fotokaisa img{
     float: left;
     max-width: 1300px ;
@@ -122,6 +118,7 @@ body{
     margin-left: 12%;
     
 }
+
  .dividir{
      width:100%;
      height: auto;
@@ -130,7 +127,6 @@ body{
 .dividir img{
     width: 100%;
     margin: 15px 0;
-
 }
 
 .biografia_kaisa{
@@ -173,8 +169,7 @@ body{
     height: auto;
     float: left;
     padding: 1%;
-    
-    
+   
 }
 
 .kaisa_ezreal img{
@@ -182,14 +177,13 @@ body{
     padding-top: 10px ;
     
 }
+
 .videokaisa{
     margin-top: 20px;
-    width: 100%;
-    
+    width: 100%;    
 }
 
 /* Estilo Kaisa_habilidades*/
-
 .Kaisa_habilidades{
     background-color:#111318;
     width: 47.5%;
@@ -214,8 +208,7 @@ body{
 
 .adc img {
     width: 100%;  
-    
-    
+  
 }
 .Kaisa_habilidades h5{
     color: #a88042;
@@ -236,12 +229,14 @@ body{
     
 }
 
+
 /* ESTILO  TERCEIRA SEÇÃO VAZIO */
 
 .vazio{
     width: 100%;
     height: auto;
-    float: left;   
+    float: left;  
+    
 }
 
 .img_vazio{
@@ -265,6 +260,4 @@ body{
     float: left;
     margin-top: 10px;   
 }
-
-
 
