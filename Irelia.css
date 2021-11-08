@@ -144,6 +144,8 @@ body{
 
 .banner h3{
     font-size: 2rem;
+    float: left;
+    width: 100%;
 }
 
 .banner img{
