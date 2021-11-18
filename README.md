@@ -1,8 +1,8 @@
 # Site sobre Kai'sa. Usei somente HTML E CSS.
- esse foi meu primerio desafio de tentar fazer um site sozinho.
- 
-😁 - futuramente vou tentar colocar outro personagem .
+ Esse foi meu primeiro desafio de tentar fazer um site sozinho.
+ tem muita coisa errada ainda. kkk. mas no final valeu a alegria de ter consegui fazer a telinha brilhar. 
+😁 - futuramente vou tentar colocar outro personagem, e com código melhor nê. 
 
-Aqui estava praticando float: left.
+Aqui estava praticando float: left. ainda . 
 
-https://douglasb834.github.io/Site-personagem-lol/index.html
+consegui visualizar o site por aqui ➡ https://douglasb834.github.io/Site-personagem-lol/index.html ✌
